@@ -1,0 +1,54 @@
+#navbar {
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+#main {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.post {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 700px;
+  border: 1px solid #e6e6e6;
+  background-color: white;
+}
+.postimg {
+  margin-top: 10px;
+  max-width: 400px;
+}
+
+#logo {
+  width:90px;
+}
+
+#nameLogo{
+  width: 30px;
+  color: black;
+  border-right: 2px black solid;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+
+#activityIcons {
+  display: inline-block;
+  margin-left: 500px;
+}
+
+i {
+  margin-right: 10px;
+}
+#logoDiv {
+  display: inline;
+  width: 100%;
+}
