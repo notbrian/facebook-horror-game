@@ -26,7 +26,9 @@ window.onload = function() {
         <img src="img/yourfriend.jpg" alt="" class="postContact">
         <p class="postCreatorText"> yourfriend${Math.floor(Math.random() * 1000)}</p>
       </div>
+      <a href="${goodPostsData[x].image}" target="_blank">
       <img class="postimg" src="${goodPostsData[x].image}" alt="">
+      </a>
       <div class="postInteraction" style="text-align:left; margin: 10px; margin-left: 20px;">
       <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
       </div>
