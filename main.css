@@ -1,3 +1,7 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 #navbar {
   border-bottom: 1px solid rgba(0,0,0,.0975);
   background-color: white;
@@ -16,16 +20,17 @@ body {
 }
 
 .post {
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 600px;
-  height: 700px;
+  padding-bottom: 50px;
   border: 1px solid #e6e6e6;
   background-color: white;
 }
 .postimg {
   margin-top: 10px;
-  max-width: 400px;
+  width: 400px;
 }
 
 #logo {
@@ -48,7 +53,59 @@ body {
 i {
   margin-right: 10px;
 }
+
 #logoDiv {
   display: inline;
   width: 100%;
+}
+
+.postContact {
+  max-width: 40px;
+  border-radius: 50%;
+  display: inline;
+  vertical-align: middle;
+
+}
+
+.postCreator {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.postCreatorText {
+  font-size: 15px;
+  vertical-align: middle;
+  margin-left: 10px;
+  display: inline;
+}
+
+.comment {
+}
+
+.post p{
+  margin-left: 20px;
+  text-align:left;
+}
+
+.likes {
+  font-weight: bold;
+}
+
+.userPostCaption {
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+.nextDay {
+  display:block;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  text-decoration: none;
+  border: 2px solid black;
 }
