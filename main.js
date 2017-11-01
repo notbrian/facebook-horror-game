@@ -1,4 +1,9 @@
 window.onload = function() {
+  if (localStorage.getItem("day") === null) {
+    localStorage.setItem("day", 0)
+    localStorage.setItem("score", 0)
+
+  }
   if ((localStorage.getItem("day") == 12) && (localStorage.getItem("score") < 10000) )
   {
     alert("You didn't make it to 10,000 followers in 12 days! Scroll to the bottom of the page to reset.")
