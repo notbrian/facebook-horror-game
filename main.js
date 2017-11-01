@@ -4,9 +4,9 @@ window.onload = function() {
     localStorage.setItem("score", 0)
 
   }
-  if ((localStorage.getItem("day") == 12) && (localStorage.getItem("score") < 10000) )
+  if ((localStorage.getItem("day") == 14) && (localStorage.getItem("score") < 10000) )
   {
-    alert("You didn't make it to 10,000 followers in 12 days! Scroll to the bottom of the page to reset.")
+    alert("You didn't make it to 10,000 followers in 14 days! Scroll to the bottom of the page to reset.")
   }
 
   if (localStorage.getItem("score") > 10000) {
